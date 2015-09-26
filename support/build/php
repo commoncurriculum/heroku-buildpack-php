@@ -68,6 +68,7 @@ LD_LIBRARY_PATH=${OUT_PREFIX} ./configure \
     --enable-sockets \
     --enable-zip \
     --with-zlib \
+    --with-tidy \
     --with-zlib-dir=${OUT_PREFIX} \
     --enable-bcmath=shared \
     --enable-calendar=shared \
