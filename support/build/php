@@ -68,7 +68,6 @@ LD_LIBRARY_PATH=${OUT_PREFIX} ./configure \
     --enable-sockets \
     --enable-zip \
     --with-zlib \
-    --with-tidy \
     --with-zlib-dir=${OUT_PREFIX} \
     --enable-bcmath=shared \
     --enable-calendar=shared \
@@ -89,6 +88,7 @@ LD_LIBRARY_PATH=${OUT_PREFIX} ./configure \
     --with-pdo-sqlite=shared \
     --with-xmlrpc=shared \
     --with-xsl=shared \
+    --with-tidy \
     $configureopts
 make -s -j 9
 make install -s
